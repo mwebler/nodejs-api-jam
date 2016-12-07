@@ -2,7 +2,8 @@
 
 ## Getting started resources
 ### Javascript basics
-https://www.codecademy.com/courses/getting-started-v2/0/1
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+https://www.codecademy.com/learn/learn-javascript
 
 ### Gettting started with Node.JS
 http://blog.modulus.io/absolute-beginners-guide-to-nodejs
