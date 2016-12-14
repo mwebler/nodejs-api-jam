@@ -17,7 +17,7 @@ http://blog.modulus.io/absolute-beginners-guide-to-nodejs
 ## Install prerequisites
 * Git: https://git-scm.com/downloads
 * Node.JS LTS v6.9.2: https://nodejs.org/en/download/
-* MongoDB Community 3.4.0: https://www.mongodb.com/download-center#community
+* MongoDB Community: https://docs.mongodb.com/manual/installation/#tutorials
 * Postman: https://www.getpostman.com/
 
 **Proxy configuration (when inside SAP Corporate network)**
