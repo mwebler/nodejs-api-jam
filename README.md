@@ -19,3 +19,7 @@ http://blog.modulus.io/absolute-beginners-guide-to-nodejs
 * Node.JS LTS v6.9.2: https://nodejs.org/en/download/
 * MongoDB Community 3.4.0: https://www.mongodb.com/download-center#community
 * Postman: https://www.getpostman.com/
+
+**Proxy configuration (when inside SAP Corporate network)**
+
+When accessing from an SAP Corporate Network might be necessary to set a few proxies. Find the needed configuration in the following gist: https://github.wdf.sap.corp/gist/I842877/f847fe56f8a8181f5a0859c81faad2a5
