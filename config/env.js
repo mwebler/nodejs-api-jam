@@ -6,7 +6,7 @@ const cloudFoundry = cfenv.getAppEnv();
 module.exports = {
 
   getMongoUrl: () => {
-    const service       = 'mongo-service',
+    const service       = 'mydb',
           localMongoUrl = 'mongodb://localhost/mydb';
 
     return cloudFoundry.getServiceURL(service) || localMongoUrl;

@@ -1,0 +1,9 @@
+---
+applications:
+- name: nodejs-api-webler
+  memory: 512M
+  command: node index.js
+  instances: 1
+  path: .
+  services:
+    - mydb
