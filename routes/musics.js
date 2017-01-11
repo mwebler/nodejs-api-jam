@@ -15,7 +15,8 @@ router.get('/',(request, response) => {
 
 // get /musics/br
 router.get('/:id',(request, response) => {
-  Music.getMusic(request.params.id)
+  console.log(request.params.id);
+  Music.findById(request.params.id)
     .then( musics => {
       response.status(200).json(musics);
     }).catch( error => {
@@ -37,9 +38,9 @@ router.post('/',  (request, response) => {
     });
 });
 
-router.put('/', (request, response) => {
+router.put('/:id', (request, response) => {
   var values     = request.body;
-  var music_id = request.body.id;
+  var music_id = request.params.id;
 
   delete values.id;
 
@@ -51,9 +52,9 @@ router.put('/', (request, response) => {
     });
 });
 
-router.delete('/', (request, response) => {
+router.delete('/:id', (request, response) => {
 
-  Music.remove({_id: request.body.id}, function(err) {
+  Music.findOneAndRemove({_id: request.params.id}, function(err) {
        if (!err)
           response.json('ok');
       else

@@ -8,9 +8,21 @@ const musicSchema = mongoose.Schema({
   album: { type: String }
 });
 
-musicSchema.statics.getMusics = function(filters, language) {
+musicSchema.statics.getAll = function() {
   return new Promise((resolve, reject) => {
-    this.findAll((error, musics) => {
+    this.find((error, musics) => {
+      console.log(musics);
+      if (error) {
+        return reject(error);
+      }
+      return resolve( musics );
+    });
+  });
+}
+
+musicSchema.statics.getById = function(id) {
+  return new Promise((resolve, reject) => {
+    this.findById(id, (error, musics) => {
       if (error) {
         return reject(error);
       }
