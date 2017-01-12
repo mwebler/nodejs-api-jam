@@ -23,3 +23,11 @@ http://blog.modulus.io/absolute-beginners-guide-to-nodejs
 **Proxy configuration (when inside SAP Corporate network)**
 
 When accessing from an SAP Corporate Network might be necessary to set a few proxies. Find the needed configuration in the following gist: https://github.wdf.sap.corp/gist/I842877/f847fe56f8a8181f5a0859c81faad2a5
+
+## Clod foundry
+https://market.yaas.io/beta/all/HCP,-Starter-Edition-for-Cloud-Foundry-Services-(Beta)/fdfe917d-d4e9-4b23-a846-1f00c636db42
+
+endpoint:
+```
+api.cf.us10.hana.ondemand.com
+```
