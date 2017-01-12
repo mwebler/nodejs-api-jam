@@ -15,6 +15,7 @@ app.get('/', function (req, res) {
 
 app.listen(port , () => {
   console.log('Service running on port', port);
-  console.log('other = ', process.env.PORT);
   console.log('Connected to database', env.getMongoUrl());
 });
+
+module.exports = app; // for testing
