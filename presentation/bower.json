@@ -1,0 +1,8 @@
+{
+  "name": "restful-api-development-with-node-js",
+  "version": "1.0.0",
+  "dependencies": {
+    "reveal.js": "~3.2.0",
+    "highlightjs": "~9.0.0"
+  }
+}

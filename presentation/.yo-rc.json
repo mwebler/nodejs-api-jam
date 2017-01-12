@@ -1,0 +1,9 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "RESTful API development with Node.js",
+    "packageVersion": "1.0.0",
+    "revealTheme": "night",
+    "useSass": false,
+    "deployToGithubPages": false
+  }
+}
