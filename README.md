@@ -24,4 +24,4 @@ npm start
 ```
 
 > Do not forget to install the required dependencies, such as MongoDB and Git:
-> tps://github.com/mwebler/nodejs-api-jam/blob/master/Preparation.md
+> https://github.com/mwebler/nodejs-api-jam/blob/master/Preparation.md
